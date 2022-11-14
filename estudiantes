@@ -1,0 +1,38 @@
+class Student:
+    ##atributos##
+    id=0
+    run=0
+    dv=''
+    alternative_id=''
+    names=''
+    middle_surname=''
+    last_surname=''
+    ##fin atributos##
+    ##metodos##
+    def __init__(self,id,run,dv,alternative_id,names,middle_surname,last_surname):
+        self.id=id ##TODO que setee autoincrementable
+        self.run=run
+        self.dv=dv
+        self.alternative_id=alternative_id
+        self.names=names
+        self.middle_surname=middle_surname
+        self.last_surname=last_surname
+    
+    id=int(input("ingrese numero identificador")
+    
+    print("¿tiene rut?")
+    print("1.Si")
+    print("2.No")
+    p=int(input("ingrese una de las dos alternativas"))
+    if (p==1):
+        run=int(input("ingrese el rut sin el digito verificador")
+        dv=int(input("ingrese el digito verificador del rut")
+    elif (p==2):
+        alternative_id=int(input("ingrese otra alternativa del identificacion")
+    else:
+        print("no ingreso correctamente el valor pedido")
+
+    
+    names=str(input("ingrese el nombre")
+    middle_surname=str(input("ingrese su primer apellido")
+    last_surname=str(input("ingrese su segundo apellido") 
